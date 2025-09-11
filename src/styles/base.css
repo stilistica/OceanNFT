@@ -1,0 +1,18 @@
+:root {
+  --font-family: 'Raleway', sans-serif;
+
+  --color-white: #ffffff;
+  --color-black: #000;
+
+  color: var(--color-black);
+  background-color: var(--color-white);
+  font-family: var(--font-family);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  /* min-width: 100vw;
+  min-height: 100vh;
+  margin: 0; */
+}
