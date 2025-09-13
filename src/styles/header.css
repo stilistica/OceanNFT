@@ -1,0 +1,142 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 0px 4px 0px;
+  background: rgba(35, 18, 68, 0.723);
+}
+.container-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-header {
+  width: 112px;
+  height: 25px;
+}
+.navbar .button-header {
+  background: transparent;
+  border: none;
+  padding: 0px;
+}
+.navbar .button-header:focus,
+.navbar .button-header:hover {
+  box-shadow: none;
+}
+.button-header:hover svg {
+  opacity: 0.7;
+}
+.navbar .mob-menu-header {
+  padding: 25px;
+  backdrop-filter: blur(145.60252380371094px);
+  background: rgba(255, 255, 255, 0.1);
+}
+.icons-header {
+  display: flex;
+  gap: 25px;
+}
+.icon-header svg {
+  width: 25px;
+  height: 25px;
+}
+.icon-header:hover {
+  opacity: 0.6;
+}
+.navbar .header-btn-close {
+  padding: 0px;
+  box-shadow: none;
+}
+.navbar .header-btn-close:focus {
+  box-shadow: none;
+}
+.offcanvas-body .nav-header {
+  font-family: var(--font-orbitron);
+
+  font-weight: 700;
+  font-size: 19px;
+  color: var(--color-white);
+  opacity: 0.6;
+
+  transition: all 0.5s ease;
+}
+.offcanvas-body .nav-header:hover,
+.offcanvas-body .nav-header:focus {
+  color: var(--color-white);
+  opacity: 1;
+}
+.desk-icons {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .desk-icons {
+    display: flex;
+    align-items: center;
+  }
+  .container-header {
+    gap: 80px;
+  }
+  .logo-header {
+    width: 132px;
+    height: 28px;
+  }
+  .navbar .mob-menu-header {
+    padding: 0px;
+  }
+  .canvas-desk {
+    justify-content: space-between;
+  }
+  .icons-header {
+    gap: 25px;
+  }
+  .icon-header svg {
+    width: 25px;
+    height: 25px;
+  }
+  .offcanvas-body .nav-header {
+    font-size: 17px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .header {
+    padding: 40px 0px 10px 0px;
+  }
+  .container-header {
+    gap: 216px;
+  }
+
+  .navbar-header {
+    display: flex;
+    gap: 66px;
+  }
+  .icons-header {
+    gap: 40px;
+  }
+  .icon-header svg {
+    width: 30px;
+    height: 30px;
+  }
+  .offcanvas-body .nav-header {
+    font-size: 19px;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .header {
+    padding: 40px 0px 10px 0px;
+  }
+  .container-header {
+    gap: 406px;
+  }
+  .logo-header {
+    width: 200px;
+    height: 30px;
+  }
+  .navbar-header {
+    gap: 70px;
+  }
+  .icons-header {
+    gap: 45px;
+  }
+}

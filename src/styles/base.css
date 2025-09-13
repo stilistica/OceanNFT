@@ -22,7 +22,7 @@ body {
   position: relative;
   min-height: 100vh;
   overflow-x: hidden;
-  background-color: rgba(32, 8, 59, 0.95);
+  background-color: rgba(32, 8, 59, 0.95) !important;
 }
 
 body::before {
@@ -31,7 +31,7 @@ body::before {
   inset: 0;
   background: url('../img/background/mob.webp') no-repeat center top / cover;
   filter: blur(20px);
-  transform: scale(1.05);
+  /* transform: scale(1.05); */
   z-index: -1;
 }
 

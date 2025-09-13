@@ -1,11 +1,25 @@
-
+.my-container {
+  box-sizing: border-box;
+  padding: 0px 20px;
+  width: 375px;
+  margin: 0 auto;
+}
 
 @media only screen and (min-width: 768px) {
-
+  .my-container {
+    width: 768px;
+    padding: 0px 30px;
+  }
 }
 @media only screen and (min-width: 1440px) {
-
+  .my-container {
+    width: 1440px;
+    padding: 0px 40px;
+  }
 }
 @media only screen and (min-width: 1920px) {
-
+  .my-container {
+    width: 1920px;
+    padding: 0px 60px;
+  }
 }
