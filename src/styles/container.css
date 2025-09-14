@@ -7,6 +7,8 @@
 .my-section {
   padding-bottom: 108px;
 }
+
+/* ------pink-blue button-------- */
 .my-btn {
   border: 1.59px solid transparent;
   background-image: linear-gradient(
@@ -33,6 +35,20 @@
     linear-gradient(120deg, #ffa6fa 0%, #3c79d4 77%);
 
   box-shadow: 0 3px 77px 0 rgba(67, 114, 202, 0.593);
+}
+
+/* -------opasity div------- */
+.my-div {
+  border: 1.68px solid;
+  background: rgba(255, 255, 255, 0.1);
+  border-image: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.05) 0%,
+      rgba(255, 255, 255, 0.4) 50%,
+      rgba(255, 255, 255, 0.05) 100%
+    )
+    1;
+  backdrop-filter: blur(25px);
 }
 
 @media only screen and (min-width: 768px) {
