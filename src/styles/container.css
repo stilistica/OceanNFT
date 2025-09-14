@@ -4,11 +4,17 @@
   width: 375px;
   margin: 0 auto;
 }
+.my-section {
+  padding-bottom: 108px;
+}
 
 @media only screen and (min-width: 768px) {
   .my-container {
     width: 768px;
     padding: 0px 30px;
+  }
+  .my-section {
+    padding-bottom: 120px;
   }
 }
 @media only screen and (min-width: 1440px) {
@@ -16,10 +22,16 @@
     width: 1440px;
     padding: 0px 40px;
   }
+  .my-section {
+    padding-bottom: 160px;
+  }
 }
 @media only screen and (min-width: 1920px) {
   .my-container {
     width: 1920px;
     padding: 0px 60px;
+  }
+  .my-section {
+    padding-bottom: 180px;
   }
 }

@@ -9,6 +9,7 @@ h5,
 h6,
 p {
   margin: 0;
+  padding: 0;
 }
 
 p:last-child {
@@ -22,7 +23,7 @@ ul {
 }
 
 a {
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 button {

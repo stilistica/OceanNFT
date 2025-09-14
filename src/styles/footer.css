@@ -1,0 +1,222 @@
+.info-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 30px 0 40px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+.first-section-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+.logo-footer {
+  width: 138px;
+  height: 28px;
+}
+.first-section-footer p {
+  margin: 4px 0 0 0;
+  font-family: var(--font-inter);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.71429;
+  color: #d9dbe1;
+}
+.social-list-footer {
+  display: flex;
+  gap: 17.69px;
+}
+.social-item-footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 27px;
+  height: 27px;
+  border-radius: 100%;
+
+  background: rgba(255, 255, 255, 0.1);
+  transition: all 0.5s ease;
+}
+.social-item-footer a:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+.social-item-footer svg {
+  width: 15px;
+  height: 15px;
+}
+
+/* -----------mob section------------ */
+.section-mob-footer {
+  display: grid;
+  gap: 17px;
+}
+.sec-div-mob:not(:last-child) {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.section-mob-footer p {
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-family: var(--font-inter);
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 1.55556;
+  color: var(--color-white);
+}
+.btn-open-footer {
+  background: none;
+  border: none;
+}
+.svg-open-footer {
+  fill: rgba(255, 255, 255, 0.54);
+  width: 15px;
+  height: 8px;
+}
+.list-mob-footer {
+  padding-bottom: 16px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.list-mob-footer li a {
+  font-family: var(--font-inter);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.71429;
+  color: #d9dbe1;
+}
+.list-mob-footer li a:hover {
+  color: var(--color-white);
+}
+.list-mob-footer span {
+  font-family: var(--font-museomoderno);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.2;
+  color: #2ec5ce;
+}
+.section-desk-footer {
+  display: none;
+}
+.policy-footer {
+  display: grid;
+  gap: 38.5px;
+
+  padding-bottom: 97.5px;
+}
+.policy-footer-list {
+  display: flex;
+  justify-content: center;
+  gap: 33.4px;
+
+  order: 1;
+}
+.policy-footer-list li {
+  font-family: var(--font-inter);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.71429;
+  color: #d9dbe1;
+  cursor: pointer;
+
+  transition: all 0.5s ease;
+}
+.policy-footer-list li:hover {
+  color: var(--color-white);
+}
+.sitemap-footer {
+  display: none;
+}
+.policy-footer p {
+  order: 2;
+
+  text-align: center;
+  font-family: var(--font-inter);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.71429;
+  color: #d9dbe1;
+}
+@media only screen and (min-width: 768px) {
+  .policy-footer {
+    display: flex;
+    justify-content: space-between;
+
+    padding-bottom: 50px;
+  }
+  .policy-footer-list {
+    order: 2;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .info-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 89px;
+    padding: 96px 0 86px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  .section-mob-footer {
+    display: none;
+  }
+  .section-desk-footer {
+    display: flex;
+    gap: 33.16px;
+  }
+  .section-desk-footer .sec-div-desk {
+    width: 174.5px;
+  }
+  .section-desk-footer .sec-div-desk p {
+    padding-bottom: 17.69px;
+    font-family: var(--font-inter);
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 1.55556;
+    color: #fff;
+  }
+  .list-mob-footer {
+    padding-bottom: 0;
+    gap: 13.27px;
+  }
+  .policy-footer {
+    padding-top: 26.5px;
+    padding-bottom: 40px;
+  }
+  .policy-footer-list {
+    gap: 0;
+  }
+  .policy-footer-list li {
+    padding-left: 8.84px;
+    padding-right: 8.84px;
+  }
+  .policy-footer-list li:first-child {
+    padding-left: 0px;
+    border-right: 2px solid #d9dbe1;
+  }
+  .policy-footer-list li:last-child {
+    padding-right: 0px;
+    border-left: 2px solid #d9dbe1;
+  }
+  .sitemap-footer {
+    display: block;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .info-footer {
+    gap: 120px;
+    padding: 100px 0 90px 0;
+  }
+  .section-desk-footer {
+    gap: 40px;
+  }
+  .section-desk-footer .sec-div-desk {
+    width: 200px;
+  }
+  .list-mob-footer {
+    gap: 15px;
+  }
+}
