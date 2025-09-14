@@ -1,0 +1,154 @@
+.subscribe-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 108px;
+}
+.sub-info {
+  display: flex;
+  flex-direction: column;
+  gap: 32.24px;
+}
+.sub-text {
+  display: flex;
+  flex-direction: column;
+  gap: 18.24px;
+}
+.sub-text h1 {
+  font-family: var(--font-orbitron);
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--color-white);
+}
+.sub-text p {
+  font-family: var(--font-inter);
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 1.77778;
+  color: var(--color-white);
+}
+.sub-form {
+  display: flex;
+  gap: 6px;
+}
+.sub-form input {
+  padding: 8.51px 11.68px;
+  width: 180.97px;
+  border-radius: 4px 0 0 4px;
+  border: none;
+  background: #f4f5f7;
+
+  font-family: var(--font-inter);
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.71429;
+  color: #474a57;
+}
+.sub-form input:focus,
+.sub-form input:active {
+  outline: none;
+  border: none; /* якщо хочеш прибрати і сам бордер */
+  box-shadow: none; /* бо в деяких браузерах ще додається */
+}
+.sub-form button {
+  padding: 8.51px 21.68px;
+  border-radius: 0 4px 4px 0;
+
+  font-family: var(--font-inter);
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1.42857;
+  color: var(--color-white);
+}
+.image-subscribe {
+  border-radius: 4px;
+}
+@media only screen and (min-width: 768px) {
+  .subscribe-sec {
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    gap: 50px;
+  }
+  .sub-info {
+    order: 2;
+    width: 350px;
+    gap: 49.74px;
+  }
+  .sub-text {
+    gap: 27.64px;
+  }
+  .sub-text h1 {
+    font-size: 30px;
+  }
+  .sub-text p {
+    font-size: 16px;
+  }
+  .sub-form {
+    gap: 8px;
+  }
+  .sub-form input {
+    padding: 10px 15px;
+    width: 250px;
+    border-radius: 6px 0 0 6px;
+
+    font-size: 13px;
+  }
+  .sub-form button {
+    padding: 10px 25px;
+    border-radius: 0 6px 6px 0;
+
+    font-size: 13px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .subscribe-sec {
+    gap: 78.28px;
+  }
+  .sub-info {
+    width: 490.82px;
+  }
+  .sub-text h1 {
+    font-size: 39px;
+  }
+  .sub-text p {
+    font-size: 19px;
+  }
+  .sub-form {
+    gap: 8.84px;
+  }
+  .sub-form input {
+    padding: 13px 17.69px;
+    width: 274.15px;
+
+    font-size: 15px;
+  }
+  .sub-form button {
+    padding: 13.48px 33.16px;
+
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .subscribe-sec {
+    gap: 100px;
+  }
+  .sub-info {
+    width: 520px;
+  }
+  .sub-text h1 {
+    font-size: 42px;
+  }
+  .sub-text p {
+    font-size: 21px;
+  }
+  .sub-form input {
+    padding: 15px 20px;
+    width: 300px;
+  }
+  .sub-form button {
+    padding: 15px 35px;
+  }
+  .image-subscribe {
+    height: 350px;
+  }
+}
