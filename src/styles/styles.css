@@ -7,6 +7,9 @@
 /* Sections style */
 @import url('./header.css');
 
+@import url('./top.css');
+@import url('./topCards.css');
+
 @import url('./collections.css');
 @import url('./what.css');
 @import url('./subscribe.css');
