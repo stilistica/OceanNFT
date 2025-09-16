@@ -82,9 +82,9 @@ const cardsHtmlTop = nftTop.map(
               </li>
             </ul>
           </div>
-          <button>
+          <button class='my-btn'>
             Place Bid
-            <svg class="right-collections">
+            <svg class="right-top">
               <use href="/img/sprite.svg#icon-right"></use>
             </svg>
           </button>

@@ -1,4 +1,5 @@
 .top-swiper-slide {
+  list-style: none;
   width: 304px;
 }
 .image-top {
@@ -87,10 +88,10 @@
   flex-direction: column;
   gap: 20px;
 }
-.top-card-end {
-  /* display: flex;
-  flex-direction: column; */
-}
+/* .top-card-end {
+  display: flex;
+  flex-direction: column;
+} */
 .top-end-title {
   font-weight: 600;
   font-size: 8px;
@@ -116,4 +117,17 @@
   font-weight: 600;
   font-size: 13px;
   line-height: 2;
+}
+.top-ends-btn button {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+  font-weight: 500;
+  font-size: 13px;
+  color: var(--color-white);
+}
+.right-top {
+  width: 22px;
+  height: 8px;
 }

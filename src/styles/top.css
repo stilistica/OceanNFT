@@ -1,0 +1,45 @@
+.top-title {
+  padding-bottom: 32px;
+}
+.top-title a {
+  display: none;
+}
+.top-title h2 {
+  font-family: var(--font-orbitron);
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--color-white);
+}
+.top-sec-swiper {
+  padding-bottom: 40px;
+}
+.top-button {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 15px 25px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+
+  background: url('/img/border-btn.svg') no-repeat center;
+  background-size: 180%;
+  background-color: transparent;
+  border: none;
+
+  font-family: var(--font-orbitron);
+  font-weight: 700;
+  font-size: 12px;
+  color: var(--color-white);
+
+  transition: all 0.5 ease-out;
+}
+.top-button svg {
+  width: 27px;
+  height: 8px;
+  fill: var(--color-white);
+}
+
+.top-button:hover {
+  background: url('/img/button.svg') no-repeat center;
+  background-size: 100%;
+}
