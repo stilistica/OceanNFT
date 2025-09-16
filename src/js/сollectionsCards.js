@@ -1,4 +1,5 @@
 import { collections } from '../arrs/collections.js';
+import offiicial from '../img/offiicial.svg'
 
 const containerCollections = document.querySelector('.collections-cards-list');
 
@@ -47,7 +48,7 @@ const cardsHtmlCollections = collections.map(
               <p class='col-username'>
                 ${username}
                 <svg>
-                <use href="/img/offiicial.svg"></use>
+                <use href="${offiicial}"></use>
                 </svg>
               </p>
             </div>
