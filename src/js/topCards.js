@@ -1,7 +1,7 @@
 import {nftTop}  from '../arrs/nftTop';
 import sprite from '../img/sprite.svg';
 
-const containerTop = document.querySelector('.top-sw-con');
+const containerTop = document.querySelector('.top-cards-list');
 
 const cardsHtmlTop = nftTop.map(
   ({
@@ -17,7 +17,7 @@ const cardsHtmlTop = nftTop.map(
     ends,
   }) => {
     return `
-    <li class="top-swiper-slide">
+    <div class="top-swiper-slide swiper-slide">
       <picture>
       <source
         srcset="
@@ -90,7 +90,7 @@ const cardsHtmlTop = nftTop.map(
           </button>
         </div>
       </div>
-    </li>
+    </div>
     `;
   }
 );
