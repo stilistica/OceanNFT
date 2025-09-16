@@ -1,15 +1,15 @@
-import eleanor from '/img/month/1.png';
-import savannah from '/img/month/2.png';
-import arlene from '/img/month/3.png';
-import esther from '/img/month/4.png';
-import robert from '/img/month/5.png';
-import darlene from '/img/month/6.png';
-import jacob from '/img/month/7.png';
-import jerome from '/img/month/8.png';
-import wade from '/img/month/9.png';
-import jane from '/img/month/10.png';
-import kristin from '/img/month/11.png';
-import kathryn from '/img/month/12.png';
+import eleanor from '/img/month/1.webp';
+import savannah from '/img/month/2.webp';
+import arlene from '/img/month/3.webp';
+import esther from '/img/month/4.webp';
+import robert from '/img/month/5.webp';
+import darlene from '/img/month/6.webp';
+import jacob from '/img/month/7.webp';
+import jerome from '/img/month/8.webp';
+import wade from '/img/month/9.webp';
+import jane from '/img/month/10.webp';
+import kristin from '/img/month/11.webp';
+import kathryn from '/img/month/12.webp';
 
 export const sellers = [
   {
