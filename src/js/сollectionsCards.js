@@ -1,5 +1,5 @@
 import { collections } from '../arrs/collections.js';
-import offiicial from '../img/offiicial.svg'
+import offiicial from '../img/offiicial.svg';
 
 const containerCollections = document.querySelector('.collections-cards-list');
 
