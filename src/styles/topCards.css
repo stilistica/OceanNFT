@@ -40,7 +40,6 @@
   width: 26px;
   height: 26px;
 }
-
 .top-user p {
   font-weight: 600;
   font-size: 11px;
@@ -50,11 +49,9 @@
   width: 10px;
   height: 11px;
 }
-
 .top-price {
   display: flex;
   flex-direction: column;
-  /* gap: 10px; */
 }
 .top-price-title {
   font-weight: 600;
@@ -88,10 +85,7 @@
   flex-direction: column;
   gap: 20px;
 }
-/* .top-card-end {
-  display: flex;
-  flex-direction: column;
-} */
+
 .top-end-title {
   font-weight: 600;
   font-size: 8px;
@@ -122,6 +116,7 @@
   display: flex;
   gap: 10px;
   align-items: center;
+  padding: 7px 9px;
 
   font-weight: 500;
   font-size: 13px;
@@ -130,4 +125,190 @@
 .right-top {
   width: 22px;
   height: 8px;
+}
+
+@media only screen and (min-width: 768px) {
+  .top-card {
+    padding: 30px 25px 21px 23px;
+  }
+  .top-info {
+    max-width: 210px;
+
+    gap: 5px;
+  }
+  .top-info-title {
+    gap: 5px;
+  }
+  .top-info-title h4 {
+    font-size: 18px;
+  }
+  .top-user {
+    gap: 4px;
+  }
+  .top-user img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .top-user p {
+    font-size: 17px;
+  }
+  .top-user svg {
+    width: 16.5px;
+    height: 17px;
+  }
+
+  .top-price-title {
+    font-size: 11px;
+  }
+  .top-eth-el {
+    gap: 7px;
+  }
+  .top-eth-el svg {
+    width: 20px;
+    height: 22px;
+  }
+  .top-eth {
+    font-size: 10px;
+  }
+  .top-usd {
+    font-size: 11px;
+  }
+
+  .top-ends-btn {
+    gap: 25px;
+  }
+
+  .top-end-title {
+    font-size: 11px;
+  }
+  .top-date {
+    gap: 20px;
+  }
+
+  .top-date li p:last-child {
+    font-size: 11px;
+  }
+  .top-number {
+    font-size: 18px;
+  }
+  .top-ends-btn button {
+    gap: 12px;
+    padding: 7px 9px;
+
+    font-size: 15px;
+  }
+  .right-top {
+    width: 28px;
+    height: 10px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .top-card {
+    padding: 35.81px 30.56px 26px 27.3px;
+  }
+  .top-info-title h4 {
+    font-size: 23px;
+  }
+  .top-user {
+    gap: 10px;
+  }
+  .top-user img {
+    width: 38px;
+    height: 38px;
+  }
+  .top-user p {
+    font-size: 20px;
+  }
+  .top-user svg {
+    width: 20.5px;
+    height: 20px;
+  }
+  .top-price-title {
+    font-size: 14px;
+  }
+
+  .top-eth-el svg {
+    width: 24px;
+    height: 26px;
+  }
+  .top-eth {
+    font-size: 12px;
+  }
+  .top-usd {
+    font-size: 14px;
+  }
+  .top-end-title {
+    font-size: 14px;
+  }
+  .top-date {
+    gap: 23px;
+  }
+  .top-date li p:last-child {
+    font-size: 14px;
+  }
+  .top-number {
+    font-size: 23px;
+  }
+  .top-ends-btn button {
+    padding: 10px 13px;
+
+    font-size: 23px;
+  }
+  .right-top {
+    width: 31px;
+    height: 12px;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .top-card {
+    padding: 40.81px 35.56px 30px 32px;
+  }
+  .top-info {
+    max-width: 300px;
+  }
+  .top-info-title h4 {
+    font-size: 30px;
+  }
+  .top-user img {
+    width: 42px;
+    height: 42px;
+  }
+  .top-user p {
+    font-size: 22px;
+  }
+  .top-price-title {
+    font-size: 18px;
+  }
+  .top-eth-el svg {
+    height: 30px;
+  }
+  .top-eth {
+    font-size: 16px;
+  }
+  .top-usd {
+    font-size: 16px;
+  }
+  .top-end-title {
+    font-size: 18px;
+  }
+  .top-date {
+    gap: 30px;
+  }
+  .top-date li p:last-child {
+    font-size: 16px;
+  }
+  .top-number {
+    font-size: 32px;
+    line-height: 1.4;
+  }
+  .top-ends-btn button {
+    padding: 12px 25px;
+
+    font-size: 25px;
+  }
+  .right-top {
+    width: 33px;
+    height: 16px;
+  }
 }
