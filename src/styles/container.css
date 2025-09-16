@@ -40,11 +40,11 @@
 /* -------opasity div------- */
 .my-div {
   border: 1.68px solid;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
   border-image: linear-gradient(
       135deg,
       rgba(255, 255, 255, 0.05) 0%,
-      rgba(255, 255, 255, 0.4) 50%,
+      rgba(255, 255, 255, 0.35) 50%,
       rgba(255, 255, 255, 0.05) 100%
     )
     1;

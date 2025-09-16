@@ -1,0 +1,18 @@
+.collections-sec-swiper {
+  padding-bottom: 43px;
+}
+.collections-swiper {
+  overflow: hidden;
+}
+@media only screen and (min-width: 768px) {
+  .collections-sec-swiper {
+    padding-bottom: 50px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .collections-sec-swiper {
+    padding-bottom: 0px;
+  }
+}
+@media only screen and (min-width: 1920px) {
+}
