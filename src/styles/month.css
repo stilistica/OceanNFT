@@ -1,0 +1,105 @@
+.month-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  color: var(--color-white);
+}
+.month-title {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  padding-bottom: 17px;
+
+  font-family: var(--font-orbitron);
+  font-weight: 700;
+  font-size: 19px;
+}
+.month-title span {
+  color: #ff56f6;
+}
+.svg-month-title {
+  width: 10px;
+  height: 6px;
+  fill: #ff56f6;
+}
+.month-text {
+  padding-bottom: 37px;
+  font-family: var(--font-roboto);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.40188;
+}
+.month-list {
+  padding-bottom: 34.5px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
+}
+.btn-desk-month {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .month-title {
+    gap: 6px;
+    padding-bottom: 20px;
+
+    font-size: 22px;
+  }
+  .svg-month-title {
+    width: 13px;
+    height: 8px;
+  }
+  .month-text {
+    padding-bottom: 38.5px;
+    font-size: 17px;
+
+    width: 406px;
+  }
+  .month-list {
+    padding-bottom: 40px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .month-title {
+    gap: 8px;
+    padding-bottom: 23px;
+
+    font-size: 26px;
+  }
+  .month-text {
+    width: 506px;
+  }
+  .month-list {
+    padding-bottom: 62px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+  }
+  .btn-desk-month {
+    display: block;
+    padding: 11px 74px;
+
+    font-family: var(--font-rajdhani);
+    font-weight: 600;
+    font-size: 19px;
+    text-align: center;
+    color: var(--color-white);
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .month-title {
+    font-size: 28px;
+  }
+  .month-text {
+    font-size: 20px;
+    width: 550px;
+  }
+  .btn-desk-month {
+    padding: 11px 90px;
+    font-size: 22px;
+  }
+}

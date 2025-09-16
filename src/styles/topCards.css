@@ -102,10 +102,12 @@
   align-items: center;
 }
 .top-date li p:last-child {
+  width: 20px;
   font-weight: 500;
   font-size: 8px;
   line-height: 3.2;
   opacity: 0.7;
+  text-align: center;
 }
 .top-number {
   font-weight: 600;
@@ -187,6 +189,8 @@
   }
 
   .top-date li p:last-child {
+    width: 22px;
+
     font-size: 11px;
   }
   .top-number {
@@ -245,6 +249,7 @@
     gap: 23px;
   }
   .top-date li p:last-child {
+    width: 35px;
     font-size: 14px;
   }
   .top-number {

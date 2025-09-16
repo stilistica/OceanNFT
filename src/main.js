@@ -7,4 +7,7 @@ import './js/topSwiper.js';
 
 import './js/сollectionsCards.js';
 import './js/сollectionsSwiper.js';
+
+import './js/month.js';
+
 import './js/footer.js';
