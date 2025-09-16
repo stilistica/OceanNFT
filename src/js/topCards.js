@@ -1,6 +1,6 @@
 import {nftTop}  from '../arrs/nftTop';
 import sprite from '../img/sprite.svg';
-import offiicial from '/img/offiicial.svg'
+import offiicial from '../img/offiicial.svg'
 
 const containerTop = document.querySelector('.top-cards-list');
 
