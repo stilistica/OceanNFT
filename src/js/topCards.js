@@ -1,5 +1,6 @@
 import {nftTop}  from '../arrs/nftTop';
 import sprite from '../img/sprite.svg';
+import offiicial from '/img/offiicial.svg'
 
 const containerTop = document.querySelector('.top-cards-list');
 
@@ -49,7 +50,7 @@ const cardsHtmlTop = nftTop.map(
               <img class='top-img-user' src="${avatarUrl}" alt="${title}" />
               <p>${accName}</p>
               <svg>
-                <use href="/img/offiicial.svg"></use>
+                <use href="${offiicial}"></use>
               </svg>
             </div>
           </div>
@@ -85,7 +86,7 @@ const cardsHtmlTop = nftTop.map(
           <button class='my-btn'>
             Place Bid
             <svg class="right-top">
-              <use href="/img/sprite.svg#icon-right"></use>
+              <use href="${sprite}#icon-right"></use>
             </svg>
           </button>
         </div>
