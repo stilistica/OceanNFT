@@ -6,7 +6,6 @@ import 'swiper/css/pagination';
 document.addEventListener('DOMContentLoaded', () => {
   const swiperTop = new Swiper('.collections-swiper', {
     direction: 'horizontal',
-    loop: true,
     keyboard: { enabled: true, onlyInViewport: true },
     autoplay: {
       delay: 3000,
@@ -21,18 +20,22 @@ document.addEventListener('DOMContentLoaded', () => {
       0: {
         slidesPerView: 1.15,
         spaceBetween: 24,
+        loop: true,
       },
       768: {
         slidesPerView: 2,
         spaceBetween: 30,
+        loop: true,
       },
       1440: {
         slidesPerView: 3,
         spaceBetween: 35,
+        loop: false,
       },
       1920: {
         slidesPerView: 3,
         spaceBetween: 50,
+        loop: false,
       },
     },
   });
