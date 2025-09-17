@@ -4,7 +4,8 @@
   left: 0;
   width: 100%;
   padding: 20px 0px 4px 0px;
-  background: rgba(35, 18, 68, 0.723);
+  /* background: rgba(35, 18, 68, 0.923); */
+  background: rgba(34, 17, 67, 0.923);
 }
 .container-header {
   display: flex;
@@ -31,7 +32,7 @@
 .navbar .mob-menu-header {
   padding: 25px;
   backdrop-filter: blur(145.60252380371094px);
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(161, 129, 210, 0.1);
 }
 .icons-header {
   display: flex;
@@ -71,6 +72,9 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .header {
+    padding: 20px 0px 20px 0px;
+  }
   .desk-icons {
     display: flex;
     align-items: center;
@@ -84,6 +88,8 @@
   }
   .navbar .mob-menu-header {
     padding: 0px;
+    backdrop-filter: none;
+    background: transparent;
   }
   .canvas-desk {
     justify-content: space-between;
@@ -101,7 +107,7 @@
 }
 @media only screen and (min-width: 1440px) {
   .header {
-    padding: 40px 0px 10px 0px;
+    padding: 50px 0px 25px 0px;
   }
   .container-header {
     gap: 216px;
@@ -123,9 +129,6 @@
   }
 }
 @media only screen and (min-width: 1920px) {
-  .header {
-    padding: 40px 0px 10px 0px;
-  }
   .container-header {
     gap: 406px;
   }
