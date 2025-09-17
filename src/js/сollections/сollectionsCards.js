@@ -17,7 +17,7 @@ const cardsHtmlCollections = collections.map(
     artworks,
   }) => {
     return `
-    <li class="collections-swiper-slide swiper-slide my-div">
+    <div class="collections-swiper-slide swiper-slide my-div">
           <picture>
           <source
             srcset="
@@ -68,7 +68,7 @@ const cardsHtmlCollections = collections.map(
             </ul>
             <button class='my-btn'>Follow</button>
           </div>
-        </li>
+        </div>
     `;
   }
 );
