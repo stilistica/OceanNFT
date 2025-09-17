@@ -29,7 +29,7 @@ body::before {
   content: '';
   position: absolute;
   inset: 0;
-  background: url('../img/background/mob.webp') no-repeat center top / cover;
+  background: url('../../img/background/mob.webp') no-repeat center top / cover;
   filter: blur(20px);
   /* transform: scale(1.05); */
   z-index: -1;
@@ -38,7 +38,7 @@ body::before {
 /* планшети */
 @media (min-width: 768px) {
   body::before {
-    background: url('../img/background/tablet.webp') no-repeat center top /
+    background: url('../../img/background/tablet.webp') no-repeat center top /
       cover;
     filter: blur(10px);
   }
@@ -47,7 +47,7 @@ body::before {
 /* десктоп */
 @media (min-width: 1440px) {
   body::before {
-    background: url('../img/background/desk.webp') no-repeat center top / cover;
+    background: url('../../img/background/desk.webp') no-repeat center top / cover;
     /* filter: blur(3px); */
   }
 }
