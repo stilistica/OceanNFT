@@ -1,6 +1,6 @@
-import {nftTop}  from '../arrs/nftTop';
-import sprite from '../img/sprite.svg';
-import offiicial from '../img/offiicial.svg'
+import { nftTop } from '../../arrs/nftTop';
+import sprite from '../../img/sprite.svg';
+import offiicial from '../../img/offiicial.svg';
 
 const containerTop = document.querySelector('.top-cards-list');
 
@@ -15,7 +15,6 @@ const cardsHtmlTop = nftTop.map(
     accName,
     eth,
     usd,
-    ends,
   }) => {
     return `
     <div class="top-swiper-slide swiper-slide">
@@ -106,7 +105,7 @@ cardsTop.forEach((card, index) => {
   const numbers = card.querySelectorAll('.top-number');
 
   const timer = setInterval(() => {
-    if (timeLeft <= 0 ) {
+    if (timeLeft <= 0) {
       clearInterval(timer);
       numbers[0].textContent = '0';
       numbers[1].textContent = '0';
@@ -114,7 +113,7 @@ cardsTop.forEach((card, index) => {
       return;
     }
 
-    timeLeft --;
+    timeLeft--;
 
     const hours = Math.floor(timeLeft / 3600);
     const mins = Math.floor((timeLeft % 3600) / 60);
@@ -123,5 +122,5 @@ cardsTop.forEach((card, index) => {
     numbers[0].textContent = hours;
     numbers[1].textContent = mins;
     numbers[2].textContent = sec;
-  }, 1000)
+  }, 1000);
 });

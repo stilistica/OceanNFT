@@ -39,5 +39,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
   renderSellers();
 
-  window.addEventListener('resize', renderSellers)
+  window.addEventListener('resize', renderSellers);
 });

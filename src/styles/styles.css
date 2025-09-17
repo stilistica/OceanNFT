@@ -1,22 +1,20 @@
-
 /* Common styles */
-@import url('./reset.css');
-@import url('./base.css');
-@import url('./container.css');
+@import url('./base/reset.css');
+@import url('./base/base.css');
+@import url('./base/container.css');
 
 /* Sections style */
 @import url('./header.css');
 
 @import url('./hero.css');
 
-@import url('./top.css');
-@import url('./topCards.css');
+@import url('./top/top.css');
+@import url('./top/topCards.css');
 
 @import url('./collections.css');
 
-@import url('./сollectionsAccounts.css');
-@import url('./сollectionsCards.css');
-
+@import url('./сollections/сollectionsAccounts.css');
+@import url('./сollections/сollectionsCards.css');
 
 @import url('./month.css');
 @import url('./monthCards.css');

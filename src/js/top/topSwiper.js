@@ -6,7 +6,6 @@ import 'swiper/css/pagination';
 document.addEventListener('DOMContentLoaded', () => {
   const swiperTop = new Swiper('.top-swiper', {
     direction: 'horizontal',
-    // loopAdditionalSlides: 1,
     keyboard: { enabled: true, onlyInViewport: true },
     autoplay: {
       delay: 3000,

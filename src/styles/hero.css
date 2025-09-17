@@ -1,4 +1,6 @@
 .hero-container {
+  position: relative;
+
   box-sizing: border-box;
   padding: 108px 25px;
   width: 375px;
@@ -8,7 +10,9 @@
   grid-template-columns: 1fr;
   gap: 40px;
 }
-
+.hero-icon-snake {
+  display: none;
+}
 /* -------hero-grid-1-------- */
 .hero-grid-1 {
   display: flex;
@@ -282,7 +286,7 @@
     bottom: 100px;
     right: 0px;
 
-    background-size: 100%;
+    clip-path: polygon(33px 0, 100% 0, 100% 100%, 0 100%, 0 33px);
   }
   .hero-abstract .top-card {
     padding: 28px 20px 20px 20px;
@@ -356,7 +360,16 @@
     column-gap: 50px;
     row-gap: 95px;
   }
+  .hero-icon-snake {
+    position: absolute;
+    display: block;
+    width: 112px;
+    height: 18px;
 
+    left: 50%;
+    top: 45%;
+    opacity: 0.05;
+  }
   /* -------hero-grid-1-------- */
   .hero-grid-1 {
     max-width: 720px;
@@ -428,7 +441,8 @@
     bottom: 0px;
     right: 0px;
 
-    background-size: 100%;
+    background: url('/img/hero/div-desk.svg') no-repeat center;
+    clip-path: polygon(45px 0, 100% 0, 100% 100%, 0 100%, 0 45px);
   }
   .hero-abstract .top-card {
     padding: 32px 20px 26px 30px;
@@ -549,6 +563,7 @@
     width: 436px;
 
     clip-path: polygon(60px 0, 100% 0, 100% 100%, 0 100%, 0 60px);
+    background-size: 100%;
   }
   .hero-abstract .top-card {
     padding: 50px 30px 35px 30px;

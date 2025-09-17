@@ -3,11 +3,11 @@ import './styles/styles.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 import './js/hero.js';
-import './js/topCards.js';
-import './js/topSwiper.js';
+import './js/top/topCards.js';
+import './js/top/topSwiper.js';
 
-import './js/сollectionsCards.js';
-import './js/сollectionsSwiper.js';
+import './js/сollections/сollectionsCards.js';
+import './js/сollections/сollectionsSwiper.js';
 
 import './js/month.js';
 
