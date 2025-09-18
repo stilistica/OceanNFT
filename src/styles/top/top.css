@@ -18,18 +18,40 @@
   /* display: flex; */
 }
 
+.top-button-div {
+  margin: 0 auto;
+  padding: 1px;
+  /* background-image: linear-gradient(
+      130deg,
+      #ff56f6 18.31%,
+      #b936ee 43.26%,
+      #3bace2 85.44%,
+      #406aff 100%
+    ),
+    linear-gradient(120deg, #ffa6fa 0%, #3c79d4 77%); */
+  background-image: linear-gradient(120deg, #ffa6fa 0%, #3c79d4 77%);
+  border-radius: 0 2px 0 2px;
+
+  width: 133.3px;
+  clip-path: polygon(
+    30px 0,
+    100% 0,
+    100% calc(100% - 14px),
+    calc(100% - 30px) 100%,
+    0 100%,
+    0 14px
+  );
+}
 .top-button {
   box-sizing: border-box;
   margin: 0 auto;
-  padding: 15px 25px;
+  padding: 7px 23px;
   display: flex;
   gap: 5px;
   align-items: center;
 
-  background: url('/img/border-btn.svg') no-repeat center;
-  background-size: 180%;
-  background-color: transparent;
-  border: none;
+  background: #3d1a5c;
+  border: 0px;
 
   font-family: var(--font-orbitron);
   font-weight: 700;
@@ -37,17 +59,32 @@
   color: var(--color-white);
 
   transition: all 0.5 ease-out;
+
+  border-radius: 0 2px 0 2px;
+  clip-path: polygon(
+    30px 0,
+    100% 0,
+    100% calc(100% - 14px),
+    calc(100% - 30px) 100%,
+    0 100%,
+    0 14px
+  );
 }
 .top-button svg {
   width: 27px;
   height: 8px;
   fill: var(--color-white);
 }
-
 .top-button:hover {
-  background: url('/img/button.svg') no-repeat center;
-  background-size: 100%;
+  background-image: linear-gradient(
+    130deg,
+    #ff56f6 18.31%,
+    #b936ee 43.26%,
+    #3bace2 85.44%,
+    #406aff 100%
+  );
 }
+
 @media only screen and (min-width: 768px) {
   .top-title {
     padding-bottom: 40px;
@@ -58,8 +95,15 @@
   .top-sec-swiper {
     padding-bottom: 50px;
   }
+
+  .top-button-div {
+    width: 150.3px;
+  }
   .top-button {
-    padding: 25px 35px;
+
+    padding: 10px 27px;
+    background: #251349;
+    border: 0px;
 
     font-size: 14px;
   }

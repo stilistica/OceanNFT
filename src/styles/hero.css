@@ -40,31 +40,71 @@
   line-height: 1.65845;
 }
 .create-hero {
+  position: relative;
   font-family: var(--font-orbitron);
 
   display: flex;
   gap: 20px;
   align-items: center;
 }
+.hero-shadow {
+  position: absolute;
+  top: -10px;
+  left: 15px;
 
-.create-hero button {
+  width: 100.94px;
+  height: 50.94px;
+
+  background: rgba(255, 86, 246, 0.51);
+  filter: blur(30px);
+}
+.create-hero-btn {
+  padding: 1.5px;
+  background-image: linear-gradient(120deg, #ffa6fa 0%, #3c79d4 77%);
+  border-radius: 0 2px 0 2px;
+  width: 133.3px;
+  overflow: hidden;
+  clip-path: polygon(
+    30px 0,
+    100% 0,
+    100% calc(100% - 14px),
+    calc(100% - 30px) 100%,
+    0 100%,
+    0 14px
+  );
+}
+.create-hero-btn button {
   box-sizing: border-box;
-  padding: 10px 25px;
+  padding: 7px 23px;
 
   display: flex;
   gap: 5px;
   align-items: center;
 
-  background: url('/img/button.svg') no-repeat center;
-  background-size: 100%;
-  background-color: transparent;
-  border: none;
+  background-image: linear-gradient(
+    310deg,
+    #ff56f6 18.31%,
+    #b936ee 43.26%,
+    #3bace2 85.44%,
+    #406aff 100%
+  );
+  border: 0px;
 
   font-weight: 700;
   font-size: 12px;
   color: #fff;
 
   transition: all 0.5 ease-out;
+
+  border-radius: 0 2px 0 2px;
+  clip-path: polygon(
+    30px 0,
+    100% 0,
+    100% calc(100% - 14px),
+    calc(100% - 30px) 100%,
+    0 100%,
+    0 14px
+  );
 }
 .create-hero button svg {
   width: 27px;
@@ -72,9 +112,15 @@
   fill: var(--color-white);
 }
 .create-hero button:hover {
-  background: url('/img/border-btn.svg') no-repeat center;
-  background-size: 180%;
+  background-image: linear-gradient(
+    130deg,
+    #ff56f6 18.31%,
+    #b936ee 43.26%,
+    #3bace2 85.44%,
+    #406aff 100%
+  );
 }
+
 .create-hero p {
   font-weight: 700;
   font-size: 12px;
@@ -236,9 +282,12 @@
   .create-hero {
     gap: 29px;
   }
-
+  .create-hero-btn {
+    /* width: 249.8px; */
+    width: 190.8px;
+  }
   .create-hero button {
-    padding: 14px 40px;
+    padding: 12px 38px;
 
     gap: 11px;
 
@@ -384,11 +433,31 @@
   .create-hero {
     gap: 37px;
   }
+  .create-hero-btn {
+    width: 249.8px;
 
+    clip-path: polygon(
+      40px 0,
+      100% 0,
+      100% calc(100% - 25px),
+      calc(100% - 40px) 100%,
+      0 100%,
+      0 25px
+    );
+  }
   .create-hero button {
-    padding: 23px 60px;
+    padding: 19px 50px;
 
     font-size: 19px;
+
+    clip-path: polygon(
+      40px 0,
+      100% 0,
+      100% calc(100% - 25px),
+      calc(100% - 40px) 100%,
+      0 100%,
+      0 25px
+    );
   }
   .create-hero button svg {
     width: 52px;
@@ -532,6 +601,10 @@
     gap: 44px;
   }
 
+  .create-hero-btn {
+    width: 261.8px;
+
+  }
   .create-hero button {
     font-size: 22px;
   }

@@ -38,6 +38,18 @@
   grid-template-columns: 1fr;
   gap: 25px;
 }
+.month-container .top-button {
+  background: #241044;
+}
+.month-container .top-button:hover {
+  background-image: linear-gradient(
+    130deg,
+    #ff56f6 18.31%,
+    #b936ee 43.26%,
+    #3bace2 85.44%,
+    #406aff 100%
+  );
+}
 .btn-desk-month {
   display: none;
 }
@@ -62,6 +74,9 @@
   .month-list {
     padding-bottom: 40px;
     grid-template-columns: repeat(2, 1fr);
+  }
+  .month-container .top-button {
+    background: #251349;
   }
 }
 @media only screen and (min-width: 1440px) {
