@@ -132,6 +132,7 @@
 }
 @media only screen and (min-width: 1920px) {
   .container-header {
+    padding-right: 100px;
     gap: 406px;
   }
   .logo-header {
@@ -140,6 +141,7 @@
   }
   .navbar-header {
     gap: 70px;
+    margin-right: 20px;
   }
   .icons-header {
     gap: 45px;
