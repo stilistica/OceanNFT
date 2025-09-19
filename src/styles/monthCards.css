@@ -1,10 +1,9 @@
 .month-item {
   padding: 21px 20px 22px 20px;
+  box-sizing: border-box;
 
-  background: url('/img/month/card.svg') no-repeat center;
-  background-size: 100%;
-  background-color: transparent;
-  border: none;
+  border-radius: 30px;
+  position: relative;
 
   display: flex;
   align-items: center;
@@ -12,6 +11,23 @@
 
   font-family: var(--font-roboto);
   color: var(--color-white);
+}
+.month-item::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 2px;
+  border-radius: 30px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.05) 0%,
+    rgba(255, 255, 255, 0.25) 50%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
+
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
 }
 .month-info {
   display: flex;
