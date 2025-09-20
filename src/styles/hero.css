@@ -665,6 +665,7 @@
   }
   .hero-abstract .top-number {
     font-size: 17px;
+    margin-left: 0;
   }
   .hero-abstract .top-ends-btn button {
     font-size: 17px;
