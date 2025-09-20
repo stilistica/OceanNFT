@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const listSellers = document.querySelector('.month-list');
 
     if (window.innerWidth < 786) {
-      sellersRender = sellers.filter(s => [2, 4, 8, 11].includes(s.id));
+      sellersRender = sellers.filter(s => [2, 5, 8, 11].includes(s.id));
     }
     if (window.innerWidth < 1440 && window.innerWidth >= 768) {
       sellersRender = sellers.slice(0, 8);
