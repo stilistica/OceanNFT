@@ -1,5 +1,14 @@
+.collections-acc-container .top-title {
+  margin-top: 5px;
+  margin-left: 1px;
+  padding-bottom: 30px;
+}
+.collections-acc-container .top-title h2 {
+  font-size: 18px;
+}
 .collections-sec-swiper {
   padding-bottom: 43px;
+  margin-right: -25px;
 }
 .collections-swiper {
   overflow: hidden;
@@ -19,12 +28,21 @@
 @media only screen and (min-width: 768px) {
   .collections-sec-swiper {
     padding-bottom: 50px;
+    margin-right: 0px;
   }
   .collections-acc-container .top-button {
-    background: #3A245B;
+    background: #3a245b;
   }
 }
 @media only screen and (min-width: 1440px) {
+  .collections-acc-container .top-title {
+    margin-top: -3px;
+    margin-left: 1px;
+    padding-bottom: 44px;
+  }
+  .collections-acc-container .top-title h2 {
+    font-size: 26.5px;
+  }
   .collections-sec-swiper {
     padding-bottom: 0px;
   }
