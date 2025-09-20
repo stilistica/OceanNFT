@@ -119,8 +119,8 @@ cardsTop.forEach((card, index) => {
     const mins = Math.floor((timeLeft % 3600) / 60);
     const sec = timeLeft % 60;
 
-    numbers[0].textContent = hours;
-    numbers[1].textContent = mins;
-    numbers[2].textContent = sec;
+    numbers[0].textContent = String(hours).padStart(2, '0');
+    numbers[1].textContent =  String(mins).padStart(2, '0');
+    numbers[2].textContent =  String(sec).padStart(2, '0');
   }, 1000);
 });
