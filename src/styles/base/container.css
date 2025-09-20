@@ -5,7 +5,7 @@
   margin: 0 auto;
 }
 .my-section {
-  padding-bottom: 108px;
+  padding-bottom: 108.5px;
 }
 
 /* ------pink-blue button-------- */
@@ -34,16 +34,16 @@
     ),
     linear-gradient(120deg, #ffa6fa 0%, #3c79d4 77%);
 
-  box-shadow: 0 3px 77px 0 rgba(67, 114, 202, 0.593);
+  box-shadow: 0 3px 100px 0 rgba(67, 114, 202, 0.793);
 }
 
 /* -------opasity div------- */
 .my-div {
   border: 1.68px solid;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.15);
   border-image: linear-gradient(
       135deg,
-      rgba(255, 255, 255, 0.05) 0%,
+      rgba(255, 255, 255, 0.15) 0%,
       rgba(255, 255, 255, 0.35) 50%,
       rgba(255, 255, 255, 0.05) 100%
     )
@@ -63,7 +63,7 @@
 @media only screen and (min-width: 1440px) {
   .my-container {
     width: 1440px;
-    padding: 0px 40px;
+    padding: 0px 28px;
   }
   .my-section {
     padding-bottom: 160px;
