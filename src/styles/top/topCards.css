@@ -1,12 +1,13 @@
 .top-swiper-slide {
   list-style: none;
-  width: 304px;
+  /* width: 304px !important; */
 }
 .image-top {
+  height: 270px;
   width: 100%;
 }
 .top-card {
-  padding: 24.87px 21px 18px 19px;
+  padding: 23.87px 16px 16px 20.5px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -15,19 +16,19 @@
   color: var(--color-white);
 }
 .top-info {
-  max-width: 120px;
+  max-width: 130px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 11px;
 }
 .top-info-title {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 5px;
 }
 .top-info-title h4 {
   font-weight: 700;
-  font-size: 13px;
+  font-size: 13.5px;
   line-height: 2;
 }
 .top-user {
@@ -42,12 +43,13 @@
 }
 .top-user p {
   font-weight: 600;
-  font-size: 11px;
+  font-size: 11.8px;
   line-height: 2.28571;
 }
 .top-user svg {
-  width: 10px;
-  height: 11px;
+  margin-left: 12px;
+  width: 11px;
+  height: 12px;
 }
 .top-price {
   display: flex;
@@ -55,8 +57,8 @@
 }
 .top-price-title {
   font-weight: 600;
-  font-size: 8px;
-  line-height: 3.2;
+  font-size: 8.5px;
+  line-height: 3;
   opacity: 0.7;
 }
 .top-eth-el {
@@ -65,17 +67,17 @@
   align-items: center;
 }
 .top-eth-el svg {
-  width: 15px;
-  height: 18px;
+  width: 9.5px;
+  height: 17px;
 }
 .top-eth {
   font-family: var(--font-orbitron);
   font-weight: 700;
-  font-size: 7px;
+  font-size: 8px;
 }
 .top-usd {
   font-weight: 400;
-  font-size: 8px;
+  font-size: 9.5px;
   line-height: 1.2;
 
   opacity: 0.7;
@@ -83,42 +85,50 @@
 .top-ends-btn {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
 }
-
+.top-card-end {
+  margin-top: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
 .top-end-title {
+  margin-left: 10px;
   font-weight: 600;
-  font-size: 8px;
-  line-height: 3.2;
+  font-size: 8.5px;
+  line-height: 2.2;
   opacity: 0.7;
 }
 .top-date {
+  margin-left: 5.5px;
   display: flex;
-  gap: 17px;
+  gap: 19px;
 }
 .top-date li {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 3px;
 }
 .top-date li p:last-child {
   width: 20px;
   font-weight: 500;
   font-size: 8px;
-  line-height: 3.2;
+  line-height: 1;
   opacity: 0.7;
   text-align: center;
 }
 .top-number {
   font-weight: 600;
   font-size: 13px;
-  line-height: 2;
+  line-height: 1.5;
 }
 .top-ends-btn button {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   align-items: center;
-  padding: 7px 9px;
+  padding: 5px 9px 9px 10px;
 
   font-weight: 500;
   font-size: 13px;
@@ -178,7 +188,7 @@
   }
 
   .top-ends-btn {
-    gap: 25px;
+    gap: 35px;
   }
 
   .top-end-title {
@@ -208,14 +218,24 @@
   }
 }
 @media only screen and (min-width: 1440px) {
+  .image-top {
+    height: 384.7px;
+    width: 100%;
+  }
   .top-card {
-    padding: 35.81px 30.56px 26px 27.3px;
+    padding: 33.81px 23.56px 22px 29.3px;
+  }
+  .top-info {
+    gap: 8px;
+  }
+  .top-info-title {
+    gap: 0px;
   }
   .top-info-title h4 {
     font-size: 23px;
   }
   .top-user {
-    gap: 10px;
+    gap: 5px;
   }
   .top-user img {
     width: 38px;
@@ -225,28 +245,36 @@
     font-size: 20px;
   }
   .top-user svg {
+    margin-left: 0px;
     width: 20.5px;
     height: 20px;
   }
   .top-price-title {
-    font-size: 14px;
+    font-size: 14.5px;
   }
 
   .top-eth-el svg {
-    width: 24px;
-    height: 26px;
+    width: 15px;
+    height: 22px;
   }
   .top-eth {
-    font-size: 12px;
+    font-size: 12.5px;
   }
   .top-usd {
     font-size: 14px;
+  }
+  .top-ends-btn {
+    gap: 37px;
+  }
+  .top-card-end {
+    margin-top: 7px;
+    gap: 0;
   }
   .top-end-title {
     font-size: 14px;
   }
   .top-date {
-    gap: 23px;
+    gap: 20px;
   }
   .top-date li p:last-child {
     width: 35px;
@@ -254,6 +282,8 @@
   }
   .top-number {
     font-size: 23px;
+    line-height: 1.25;
+    margin-left: -5px;
   }
   .top-ends-btn button {
     padding: 10px 13px;
@@ -266,6 +296,10 @@
   }
 }
 @media only screen and (min-width: 1920px) {
+  .image-top {
+    height: 484.7px;
+    width: 100%;
+  }
   .top-card {
     padding: 40.81px 35.56px 30px 32px;
   }

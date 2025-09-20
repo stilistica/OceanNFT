@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     observeParents: true,
     breakpoints: {
       0: {
-        slidesPerView: 1.2,
+        slidesPerView: 1.14,
         spaceBetween: 24,
         loop: true,
       },
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       1440: {
         slidesPerView: 3,
-        spaceBetween: 35,
+        spaceBetween: 35.4,
         loop: false,
       },
       1920: {

@@ -1,5 +1,6 @@
 .top-title {
-  padding-bottom: 32px;
+  padding-bottom: 35px;
+  margin-left: 6px;
 }
 .top-title a {
   display: none;
@@ -14,7 +15,9 @@
   overflow: hidden;
 }
 .top-sec-swiper {
-  padding-bottom: 40px;
+  padding-bottom: 38px;
+  margin-left: 5px;
+  margin-right: -20px;
   /* display: flex; */
 }
 
@@ -34,20 +37,20 @@
 
   width: 133.3px;
   clip-path: polygon(
-    30px 0,
+    22px 0,
     100% 0,
-    100% calc(100% - 14px),
-    calc(100% - 30px) 100%,
+    100% calc(100% - 10px),
+    calc(100% - 22px) 100%,
     0 100%,
-    0 14px
+    0 10px
   );
 }
 .top-button {
   box-sizing: border-box;
   margin: 0 auto;
-  padding: 7px 23px;
+  padding: 7px 16px 7px 25px;
   display: flex;
-  gap: 5px;
+  gap: 10px;
   align-items: center;
 
   background: #3d1a5c;
@@ -62,12 +65,12 @@
 
   border-radius: 0 2px 0 2px;
   clip-path: polygon(
-    30px 0,
+    22px 0,
     100% 0,
-    100% calc(100% - 14px),
-    calc(100% - 30px) 100%,
+    100% calc(100% - 10px),
+    calc(100% - 22px) 100%,
     0 100%,
-    0 14px
+    0 10px
   );
 }
 .top-button svg {
@@ -94,14 +97,15 @@
   }
   .top-sec-swiper {
     padding-bottom: 50px;
+    margin-right: 0;
   }
 
   .top-button-div {
     width: 150.3px;
   }
-  .top-button {
 
-    padding: 10px 27px;
+  .top-button {
+    padding: 10px 25px;
     background: #251349;
     border: 0px;
 
@@ -118,12 +122,14 @@
     justify-content: space-between;
     align-items: center;
 
+    margin-left: 0px;
     padding-bottom: 47px;
   }
   .top-title a {
     display: flex;
     gap: 16.5px;
     align-items: center;
+    margin-right: 10px;
 
     font-family: var(--font-orbitron);
     font-weight: 700;
@@ -140,10 +146,16 @@
     opacity: 0.7;
   }
   .top-title h2 {
-    font-size: 26px;
+    font-size: 26.5px;
   }
   .top-sec-swiper {
+    padding-bottom: 38px;
+    margin-left: 0px;
+    margin-right: 0px;
     padding-bottom: 0px;
+  }
+  .top-button-div {
+    display: none;
   }
   .top-button {
     display: none;
