@@ -1,6 +1,6 @@
 .top-title {
   padding-bottom: 35px;
-  margin-left: 6px;
+  /* margin-left: 6px; */
 }
 .top-title a {
   display: none;
@@ -16,8 +16,7 @@
 }
 .top-sec-swiper {
   padding-bottom: 38px;
-  margin-left: 5px;
-  margin-right: -20px;
+  margin-right: -25px;
   /* display: flex; */
 }
 

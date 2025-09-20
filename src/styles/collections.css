@@ -1,14 +1,16 @@
 .collections-container {
+  /* padding-left: 5px;
+  padding-right: 5px; */
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 3px;
 }
 .collections-info {
   font-family: var(--font-orbitron);
 
   display: flex;
   flex-direction: column;
-  gap: 26px;
+  gap: 20px;
 }
 .collections-info h2 {
   font-weight: 700;
@@ -18,21 +20,22 @@
 .collections-list-div {
   display: flex;
   flex-direction: column;
-  gap: 17.86px;
+  gap: 16px;
 }
 .collections-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 17.86px;
+  column-gap: 17.86px;
+  row-gap: 15.86px;
 }
 .collections-list li {
-  padding: 13.74px 0;
+  padding: 12.74px 0;
   border: 1.59px solid transparent;
   background: transparent;
   border-image: linear-gradient(120deg, #3c79d4 0%, #ffa6fa 77%) 1;
 
   font-weight: 700;
-  font-size: 10px;
+  font-size: 10.5px;
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
 
@@ -51,9 +54,12 @@
   color: var(--color-white);
   box-shadow: 0 2px 44px 0 rgba(255, 86, 246, 0.51);
 }
+.coll-div-image {
+  margin-left: 7px;
+}
 .image-collections {
   margin: 0 auto;
-  width: 185px;
+  width: 195px;
   height: 347px;
 }
 .collections-list-div a {
@@ -120,24 +126,29 @@
 }
 @media only screen and (min-width: 1440px) {
   .collections-container {
-    justify-content: center;
     gap: 130.44px;
   }
   .collections-info {
-    gap: 47px;
+    margin-left: 0px;
+    margin-top: -36px;
+    gap: 45px;
   }
   .collections-info h2 {
-    font-size: 26px;
+    font-size: 26.2px;
   }
   .collections-list-div {
-    gap: 43.11px;
+    gap: 42.11px;
   }
   .collections-list {
-    gap: 43.11px;
+    column-gap: 43.11px;
+    row-gap: 41.11px;
   }
   .collections-list li {
-    padding: 29.89px 96px;
+    padding: 29.89px 90px;
     font-size: 26px;
+  }
+  .coll-div-image {
+    margin-left: 0px;
   }
   .image-collections {
     width: 435px;
@@ -145,9 +156,9 @@
   }
   .collections-list-div a {
     gap: 15px;
-    width: 155.87px;
+    width: 160.87px;
 
-    font-size: 19px;
+    font-size: 20px;
   }
   .right-collections {
     width: 52px;
@@ -156,7 +167,8 @@
 }
 @media only screen and (min-width: 1920px) {
   .collections-container {
-    gap: 150px;
+    /* justify-content: center; */
+    gap: 250px;
   }
   .collections-info {
     gap: 50px;
