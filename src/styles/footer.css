@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
-  padding: 30px 0 40px 0;
+  padding: 30px 0 25px 0;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 .first-section-footer {
@@ -18,8 +18,8 @@
   margin: 4px 0 0 0;
   font-family: var(--font-inter);
   font-weight: 300;
-  font-size: 15px;
-  line-height: 1.71429;
+  font-size: 16px;
+  line-height: 1.6;
   color: #d9dbe1;
 }
 .social-list-footer {
@@ -51,6 +51,7 @@
   display: grid;
   gap: 17px;
 }
+
 .sec-div-mob:not(:last-child) {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
@@ -67,6 +68,7 @@
   color: var(--color-white);
 }
 .btn-open-footer {
+  margin-right: 15px;
   background: none;
   border: none;
 }
@@ -157,15 +159,21 @@
     display: flex;
     flex-direction: row;
     gap: 89px;
+    margin-left: -28px;
     padding: 96px 0 86px 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  .first-section-footer {
+    margin-top: 4px;
+    gap: 28px;
   }
   .section-mob-footer {
     display: none;
   }
   .section-desk-footer {
+    margin-right: 20px;
     display: flex;
-    gap: 33.16px;
+    gap: 36.16px;
   }
   .section-desk-footer .sec-div-desk {
     width: 174.5px;
@@ -183,11 +191,16 @@
     gap: 13.27px;
   }
   .policy-footer {
-    padding-top: 26.5px;
+    margin-left: -27px;
+    padding-top: 29.5px;
     padding-bottom: 40px;
   }
+    .policy-footer p {
+      font-size: 15.5px;
+    }
   .policy-footer-list {
     gap: 0;
+    margin-right: 74px;
   }
   .policy-footer-list li {
     padding-left: 8.84px;
