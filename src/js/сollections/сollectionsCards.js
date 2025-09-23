@@ -43,7 +43,9 @@ const cardsHtmlCollections = collections.map(
           </picture>
           <div class='collections-card'>
             <div class='collections-info'>
-              <img class='collections-img-user' src="${avatar}" alt="${name}" />
+            <div class="coll-div-img">
+                <img class='collections-img-user' src="${avatar}" alt="${name}" />
+            </div>
               <p class='coll-name'>${name}</p>
               <p class='col-username'>
                 ${username}
