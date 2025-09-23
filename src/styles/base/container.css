@@ -1,7 +1,7 @@
 .my-container {
   box-sizing: border-box;
   padding: 0px 25px;
-  width: 375px;
+  max-width: 767px;
   margin: 0 auto;
 }
 .my-section {
@@ -53,7 +53,7 @@
 
 @media only screen and (min-width: 768px) {
   .my-container {
-    width: 768px;
+    max-width: 1439px;
     padding: 0px 30px;
   }
   .my-section {
@@ -62,7 +62,7 @@
 }
 @media only screen and (min-width: 1440px) {
   .my-container {
-    width: 1440px;
+    max-width: 1440px;
     padding: 0px 28px;
   }
   .my-section {
@@ -71,7 +71,7 @@
 }
 @media only screen and (min-width: 1920px) {
   .my-container {
-    width: 1920px;
+    max-width: 1920px;
     padding: 0px 60px;
   }
   .my-section {
