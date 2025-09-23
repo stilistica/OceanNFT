@@ -1,5 +1,6 @@
 .what-bgr-image {
   height: 300px;
+  width: 100%;
   margin-bottom: 98px;
 
   background-image: image-set(
@@ -31,7 +32,7 @@
   flex-direction: column;
   gap: 15.35px;
 
-  width: 250px;
+  max-width: 250px;
 }
 .what-info h1 {
     /* margin-top: -20px; */
@@ -72,7 +73,7 @@
 }
 @media only screen and (min-width: 768px) {
   .what-bgr-image {
-    width: 768px;
+    min-width: 768px;
     margin: 0 auto;
     height: 400px;
     margin-bottom: 110px;
@@ -93,7 +94,7 @@
   .what-info {
     gap: 15px;
 
-    width: 350px;
+    max-width: 350px;
   }
   .what-info h1 {
     font-size: 32px;
@@ -116,7 +117,7 @@
 }
 @media only screen and (min-width: 1440px) {
   .what-bgr-image {
-    width: 1440px;
+    min-width: 1440px;
     background-image: image-set(
       url('/img/what/what-desk-1x.webp') 1x,
       url('/img/what/what-desk-2x.webp') 2x
@@ -137,7 +138,7 @@
   .what-info {
     gap: 26.8px;
 
-    width: 458px;
+    max-width: 458px;
   }
   .what-info h1 {
     font-size: 44.5px;
@@ -160,7 +161,7 @@
 }
 @media only screen and (min-width: 1920px) {
   .what-bgr-image {
-    width: 1920px;
+    max-width: 1920px;
     height: 600px;
     margin-bottom: 150px;
   }
@@ -177,7 +178,7 @@
   .what-info {
     gap: 20px;
 
-    width: 550px;
+    max-width: 550px;
   }
 
   .what-svg {
