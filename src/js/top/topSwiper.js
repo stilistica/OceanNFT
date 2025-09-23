@@ -22,8 +22,33 @@ document.addEventListener('DOMContentLoaded', () => {
         spaceBetween: 24,
         loop: true,
       },
+      500: {
+        slidesPerView: 1.54,
+        spaceBetween: 24,
+        loop: true,
+      },
+      600: {
+        slidesPerView: 1.94,
+        spaceBetween: 24,
+        loop: true,
+      },
       768: {
         slidesPerView: 2,
+        spaceBetween: 30,
+        loop: true,
+      },
+      900: {
+        slidesPerView: 2.3,
+        spaceBetween: 30,
+        loop: true,
+      },
+      1100: {
+        slidesPerView: 2.5,
+        spaceBetween: 30,
+        loop: true,
+      },
+      1200: {
+        slidesPerView: 2.8,
         spaceBetween: 30,
         loop: true,
       },
