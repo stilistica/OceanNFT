@@ -108,7 +108,7 @@
 }
 @media only screen and (min-width: 1440px) {
   .header {
-    padding: 50px 0px 25px 87px;
+    padding: 40px 0px 25px 10px;
   }
   .container-header {
     gap: 203px;
