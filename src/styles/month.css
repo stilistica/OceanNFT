@@ -8,15 +8,16 @@
 }
 .month-title {
   display: flex;
-  gap: 4px;
+  gap: 3px;
   align-items: center;
-  padding-bottom: 17px;
+  padding-bottom: 18.5px;
 
   font-family: var(--font-orbitron);
   font-weight: 700;
   font-size: 19px;
 }
 .month-title span {
+  margin-left: 5px;
   color: #ff56f6;
 }
 .svg-month-title {
@@ -28,8 +29,9 @@
   padding-bottom: 26px;
   font-family: var(--font-roboto);
   font-weight: 400;
-  font-size: 15px;
+  font-size: 14.3px;
   line-height: 1.40188;
+  /* margin-left: 11px; */
 }
 .month-list {
   padding-bottom: 32.5px;

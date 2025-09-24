@@ -2,7 +2,7 @@
   position: relative;
 
   box-sizing: border-box;
-  padding: 110px 25px;
+  padding: 103px 25px 110px 25px;
   max-width: 767px;
   margin: 0 auto;
 
@@ -217,7 +217,7 @@
 
 .hero-abstract .top-card {
   box-sizing: border-box;
-  padding: 26px 20.25px 18px 21px;
+  padding: 26px 17px 18px 21px;
 
   clip-path: polygon(44px 0, 100% 0, 100% 100%, 0 100%, 0 44px);
   border-radius: 10px;
@@ -251,6 +251,7 @@
 .hero-abstract .top-user svg {
   width: 12px;
   height: 13px;
+  margin-left: 0;
 }
 .hero-abstract .top-eth-el {
   gap: 5px;
@@ -275,7 +276,7 @@
 .hero-abstract .top-card-end {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 7px;
   margin-top: 11px;
 }
 .hero-abstract .top-end-title {
@@ -294,11 +295,12 @@
 }
 .hero-abstract .top-number {
   font-size: 17px;
-  line-height: 1.4;
+  line-height: 1.2;
 }
 .hero-abstract .top-ends-btn button {
-  margin-right: -5px;
-  padding: 5px -10px 5px 0;
+  margin-right: 0px;
+  padding: 5px 10px 5px 8px;
+  gap: 10px;
 }
 .hero-abstract .top-ends-btn button {
   font-size: 17px;
